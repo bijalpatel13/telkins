@@ -1,0 +1,13 @@
+{{!-- app/templates/guestbooks.hbs --}}
+
+<ul>
+  {{#each model as |guestbook|}}
+    <li>
+      <strong>{{guestbook.song}}</strong><br><br>
+      <em>by</em>
+      {{guestbook.artist}}
+    </li>
+  {{/each}}
+</ul>
+
+{{outlet}}

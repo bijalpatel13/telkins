@@ -1,0 +1,23 @@
+/.bundle
+/db/*.sqlite3
+# API .gitignore
+telkins-api/db/*.sqlite3-journal
+telkins-api/log/*
+telkins-api/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+.byebug_history
+
+# Frontend .gitignore
+/telkins-front-end/dist
+/telkins-front-end/tmp
+/telkins-front-end/node_modules
+/telkins-front-end/bower_components
+
+/telkins-front-end/.sass-cache
+/telkins-front-end/connect.lock
+/telkins-front-end/coverage/*
+/telkins-front-end/libpeerconnection.log
+/telkins-front-end/npm-debug.log
+/telkins-front-end/testem.log
