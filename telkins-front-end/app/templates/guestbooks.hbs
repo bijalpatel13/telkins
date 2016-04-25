@@ -2,11 +2,13 @@
 
 <ul>
   {{#each model as |guestbook|}}
+  <a href="#" {{action 'openCheckoutModal' guestbook}}>
     <li>
       <strong>{{guestbook.song}}</strong><br><br>
       <em>by</em>
       {{guestbook.artist}}
     </li>
+  </a>
   {{/each}}
 </ul>
 
